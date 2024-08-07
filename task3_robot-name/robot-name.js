@@ -65,8 +65,3 @@ export class Robot {
     Robot.usedNames.length = 0;
   }
 }
-
-let myRobot = new Robot;
-console.log(myRobot.name);
-Robot.releaseNames(myRobot);
-console.log(myRobot.name);
